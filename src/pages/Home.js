@@ -20,20 +20,24 @@ export default class Home extends Component {
           clean, maintainable code.
         </p>
         <div className="flex space-x-4">
-          <a href="https://github.com/alrafi" target="_blank" rel="noopener">
+          <a
+            href="https://github.com/alrafi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} size="lg" />
           </a>
           <a
             href="https://linkedin.com/in/hafisalrafi"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
           </a>
           <a
             href="https://instagram.com/hafisalrafi"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
